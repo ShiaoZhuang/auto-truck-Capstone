@@ -259,7 +259,7 @@ class Car:
                 self.lst_tag = curr_id
                 time.sleep(0.5)
                 self.motor_control.stop(3) # car will stop & Wait for "input" seconds
-                city_name = self.tag_id_to_city.get(curr_id, "Unknown City")
+                city_name = self.tag_id_to_city_name.get(curr_id, "Unknown City")
                 self.arzue_communicator.send_data(city_name)  # Send the city name to the Arzue cloud
                 
                 
