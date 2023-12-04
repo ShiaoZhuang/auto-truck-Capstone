@@ -186,13 +186,11 @@ class Car:
 
         self.lst_tag = None
         self.tag_id_to_city_name = {
-            0: "New York",
             1: "Los Angeles",
             2: "Chicago",
             3: "Houston",
-            4: "Phoenix",
-            5: "Philadelphia",
-            6: "San Antonio"
+            26: "New York",
+            50: "State College"
         }
 
     def init_trackbar(self):
